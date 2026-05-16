@@ -1,0 +1,11 @@
+# Cloudflare Pages + D1 configuration for Japan Trip 2026
+# Put this file in the same folder as index.html, styles.css, and app.js.
+
+name = "ttt"
+compatibility_date = "2026-05-16"
+pages_build_output_dir = "."
+
+[[d1_databases]]
+binding = "DB"
+database_name = "japan-trip-2026-db"
+database_id = "PASTE_YOUR_DATABASE_ID_HERE"
